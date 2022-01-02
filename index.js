@@ -19,7 +19,7 @@
 // {
 //     console.log("pleasae enter a valid phone number.");
 // }
-console.log(10+20);//10 and 20 are operand and +  is operator.
+//console.log(10+20);//10 and 20 are operand and +  is operator.
 //assingment operator -assign a value to its left operand
 // var x=5;
 // var y=5;
@@ -34,3 +34,24 @@ console.log(10+20);//10 and 20 are operand and +  is operator.
 
 
 //increament and decreament operator-
+// var x=14;
+// var y=x++;
+// console.log(x);
+// console.log(y);
+// var num=34;
+// var newnum=--num;
+// console.log(num);
+// console.log(newnum);
+// var a =12;
+// var b=13;
+// console.log(a !=b);
+// console.log(a == b);
+// console.log(a>b);
+// console.log(a<b);
+
+//logical operator-typically used with boolean (logical )values,when they are they return a boolean value.
+var a= 30;
+var b= -20;
+console.log(a>b && b>0);//logical and operartor-if aany of the expression is false then output gives false and if those two are ture then it gives true .
+console.log(a>b || b>0);//logical or operator-if one of condition is true then the output will be true.
+//console.log(a);
