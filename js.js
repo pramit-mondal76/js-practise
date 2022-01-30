@@ -106,3 +106,108 @@ else
 {
     console.log("young");
 }*/
+/*
+break and loop statements-
+var arr=[1,2,3,4,5,6];
+for(var i=0;i<arr.length;i++)
+{
+    if(i == 2)
+    {
+      //break;//break the for statement and leave from there...
+      continue;//cancel this iteration and continuie from next.
+    }
+    console.log(arr[i]);
+}*/
+
+//Array Methods--
+
+
+//let myarr=["rimo","pramit",23,true,null];
+//console.log(myarr.length);
+//myarr.pop();//delete the last element of the array.
+//myarr.push(34);//push the element at last
+//myarr.shift();//remove the first element.
+//var newlen=myarr.unshift("ram");//add element at first.
+//console.log(newlen);//when we cosole unshift then it returns the new length of the array.
+//myarr.sort();
+//console.log(myarr);
+
+/*var fruits = ["Banana", "Orange", "Apple", "Mango"];
+console.log(fruits.toString());//tostring()-converts array to a string...
+console.log(fruits.join("+"))//The join() method also joins all array elements into a string.*/
+
+/*var surname=["ram ","sam"];
+var title=["mondal","das"];
+var concate=surname.concat(title);
+console.log(concate);
+//The concat() method creates a new array by merging */
+
+/*const fruits = ["Banana", "Orange", "Apple", "Mango"];
+console.log(fruits.splice(1));//The splice() method adds new items to an array.*/
+
+/*const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+const citrus = fruits.slice( 1,3);
+console.log(citrus);//The slice() method slices out a piece of an array into a new array.*/
+
+
+
+//String methods in javascript---
+
+//let mystring="Pramit is a good boy.";
+// console.log(mystring.length);
+// console.log(mystring.indexOf("good"));
+// console.log(mystring.lastIndexOf("boy"));
+//console.log(mystring.slice(0,6));(1-n-1)
+/*d=mystring.replace("Pramit","rimo");
+console.log(d);*/
+
+
+
+//DATES IN JAVASCRIPT-----
+let mydate=new Date();
+// console.log(mydate.getTime());
+// console.log(mydate.getFullYear());
+// console.log(mydate.getDay());
+// console.log(mydate.getMonth());
+// console.log(mydate.getMonth());
+// console.log(mydate.getDate());
+
+//DOM Manipulation--[document object model]
+/*let elem=document.getElementById('click');//terget an element by its identifier
+//console.log(elem);
+let elemclass=document.getElementsByClassName("container")
+//console.log(elemclass);
+//elemclass[0].style.background="yellow";
+elemclass[0].classList.add("bgprimary");
+elemclass[0].classList.add("text")
+
+//colsole.log(elemclass[0].innerHTML);
+//console.log(elemclass[0].innerText);
+tn=document.getElementsByTagName('div');
+console.log(tn);
+createdElement=document.createElement('p');
+createdElement.innerText="This is created para ";
+tn[0].appendChild(createdElement);
+createdElement2=document.createElement('b');
+createdElement2.innerText="This is created [2]para ";
+tn[0].replaceChild(createdElement2,createdElement);
+removeChild(element)--removes an element....
+
+document.location()
+document.title()
+document.url()
+document.scripts()
+document.links()
+document.images()
+document.domain()
+
+
+
+
+*/
+//Selecting Using Query----
+
+/*sel=document.querySelector('.container');//returns one element
+sel2=document.querySelectorAll('.container');//returns all elements
+console.log(sel);
+console.log(sel2);*/
